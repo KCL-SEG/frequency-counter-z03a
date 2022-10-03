@@ -5,9 +5,11 @@ def frequencies(items):
     frequencies = {}
     # Your code goes here
     for item in items:
-        frequencies[item] = 0
+        frequencies[str(item)] = 0
         
     for it in items:
-        frequencies[it] += 1
+        frequencies[str(it)] += 1
             
     return frequencies
+
+
